@@ -1,0 +1,30 @@
+{
+  "name": "outsystems-ui-test-webdriverio",
+  "version": "1.0.0",
+  "description": "UI Test for OutSystems application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikm19/outsystems-ui-test-webdriverio.git"
+  },
+  "author": "Karthik Nataraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikm19/outsystems-ui-test-webdriverio/issues"
+  },
+  "homepage": "https://github.com/karthikm19/outsystems-ui-test-webdriverio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/register": "^7.18.9",
+    "@wdio/cli": "^7.20.9",
+    "@wdio/cucumber-framework": "^7.20.8",
+    "@wdio/local-runner": "^7.20.9",
+    "@wdio/spec-reporter": "^7.20.8",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
